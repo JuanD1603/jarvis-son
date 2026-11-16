@@ -1,0 +1,18 @@
+# Pesos de modelos y binarios (nunca versionar)
+models/**/*.gguf
+models/**/*.bin
+*.gguf
+*.bin
+*.onnx
+*.tar.bz2
+# Audio
+*.wav
+*.m4a
+*.mp3
+# Datos privados y temporales
+bitacora/privado/
+tmp/
+build/
+*.apk
+__pycache__/
+.env
