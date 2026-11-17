@@ -1,0 +1,59 @@
+# Configuración de Jarvis-son V1 (copiar a ~/jarvis/config.ini).
+# Los comandos son plantillas de argv: se dividen por espacios ANTES de sustituir {variables},
+# así que el texto del usuario siempre llega como un único argumento y nunca pasa por una shell.
+# Variables de turno: {in_wav} {stt_base} {prompt} {out_wav} {texto}; además, cualquier clave
+# de este archivo como {seccion.clave}.
+
+[general]
+home = /data/data/com.termux/files/home/jarvis
+tmp = {general.home}/tmp
+logs = {general.home}/logs
+csv = {general.home}/logs/turnos.csv
+segundos_grabacion = 5
+max_bytes_tts = 400
+
+[captura]
+cmd = {general.home}/bin/capturar.sh {general.segundos_grabacion} {in_wav}
+timeout = 30
+
+[stt]
+# Elegido por medición (docs/metricas/stt.md). contexto_audio 512 = ~10 s (la grabación dura 5 s).
+modelo = {general.home}/models/stt/ggml-base-q5_1.bin
+hilos = 4
+contexto_audio = 512
+# Pista de vocabulario para Whisper (corrige "Harbys" -> "Jarvis"); llega como un solo argumento.
+pista = Hola, Jarvis.
+cmd = {general.home}/bin/whisper-cli -m {stt.modelo} -l es -t {stt.hilos} -ac {stt.contexto_audio} --prompt {stt.pista} -nt -np -otxt -of {stt_base} -f {in_wav}
+timeout = 60
+
+[slm]
+# Elegido por medición (docs/metricas/slm.md). Alternativa rápida: Qwen3.5-0.8B-Q4_0.gguf
+# (en ese caso, usar el prefijo_asistente con <think> vacío que aparece comentado abajo).
+modelo = {general.home}/models/llm/qwen2.5-1.5b-instruct-q4_k_m.gguf
+hilos = 2
+contexto = 1024
+max_tokens = 96
+temperatura = 0.7
+sistema = Eres Jarvis-son, un asistente de voz. Responde siempre en español latinoamericano neutro, en una a tres frases cortas, sin listas, sin emojis, sin markdown.
+# Qwen3.5: un bloque <think> vacío en el turno del asistente desactiva el razonamiento:
+# prefijo_asistente = <think>\n\n</think>\n\n
+# Qwen2.5 no razona: prefijo vacío.
+prefijo_asistente =
+cmd = {general.home}/bin/llama-completion -m {slm.modelo} -f {prompt} -n {slm.max_tokens} -c {slm.contexto} -t {slm.hilos} --temp {slm.temperatura} -no-cnv --no-display-prompt --no-warmup -nr -s 42 --prompt-cache {slm.cache} --prompt-cache-ro
+timeout = 120
+# Caché del prompt de sistema: la crea el orquestador al arrancar (solo con el prompt de sistema,
+# nunca con texto del usuario) y cada turno la usa en modo solo lectura. Ahorra ~4-6 s por turno.
+cache = {slm.modelo}.sistema.cache
+cmd_preparar_cache = {general.home}/bin/llama-completion -m {slm.modelo} -f {prompt_sistema} -n 1 -c {slm.contexto} -t {slm.hilos} -no-cnv --no-display-prompt --no-warmup -nr --prompt-cache {slm.cache}
+
+[tts]
+# Elegida por calificación humana (docs/metricas/tts.md). Alternativa más rápida: es_MX-claude-high (hilos = 4).
+nombre_voz = es_AR-daniela-high
+voz = {general.home}/models/tts/vits-piper-{tts.nombre_voz}
+hilos = 8
+cmd = {general.home}/bin/tts.sh --vits-model={tts.voz}/{tts.nombre_voz}.onnx --vits-tokens={tts.voz}/tokens.txt --vits-data-dir={tts.voz}/espeak-ng-data --num-threads={tts.hilos} --output-filename={out_wav} {texto}
+timeout = 60
+
+[reproduccion]
+cmd = play-audio {out_wav}
+timeout = 60
