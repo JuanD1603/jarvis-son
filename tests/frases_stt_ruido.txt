@@ -1,0 +1,5 @@
+Hola Jarvis, ¿qué hora es?
+Dime cuál es la capital de Colombia.
+¿Cuánto es doce más ocho?
+Cuéntame un chiste corto.
+Gracias Jarvis, eso es todo por ahora.
