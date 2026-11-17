@@ -1,0 +1,20 @@
+Hola Jarvis, ¿cómo estás hoy?
+¿Qué hora es en este momento?
+Dime cuál es la capital de Colombia.
+¿Cuánto es doce más ocho?
+Recomiéndame una película para esta noche.
+¿Qué temperatura hace normalmente en Cartago?
+Explícame qué es un modelo de lenguaje.
+Necesito una receta fácil con arroz.
+¿Cuántos días tiene un año bisiesto?
+Cuéntame un chiste corto.
+¿Cómo se dice gracias en inglés?
+Dame tres ideas para hacer ejercicio en casa.
+¿Qué significa la palabra resiliencia?
+¿Quién escribió Cien años de soledad?
+Quiero aprender a programar en C más más.
+¿Por qué la luna cambia de forma?
+Dime un consejo para estudiar mejor.
+¿Cuál es el río más largo del mundo?
+Explícame cómo funciona un teléfono celular.
+Gracias Jarvis, eso es todo por ahora.

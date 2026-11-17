@@ -1,0 +1,41 @@
+id	modelo	hilos	dur_s	ms	rss_kb	ref	hip
+01	tiny	4	1.865625	2921	132912	Hola Jarvis, ¿cómo estás hoy?	Hola, Harvey, ¿cómo está soy?
+02	tiny	4	1.660250	2896	132540	¿Qué hora es en este momento?	que hora es en este momento.
+03	tiny	4	2.464563	3607	133044	Dime cuál es la capital de Colombia.	Dime cuál es la capital de Colombia.
+04	tiny	4	1.706688	3490	132624	¿Cuánto es doce más ocho?	¿Cuánto esto se más ocho?
+05	tiny	4	2.879875	3923	132776	Recomiéndame una película para esta noche.	Recomiéndame una película para esta noche.
+06	tiny	4	2.832875	3436	132208	¿Qué temperatura hace normalmente en Cartago?	¿Qué temperatura ha se normalmente encartado?
+07	tiny	4	2.577438	3865	132548	Explícame qué es un modelo de lenguaje.	Explica a mequé de su un modelo de lenguaje.
+08	tiny	4	2.565813	4102	133240	Necesito una receta fácil con arroz.	Me necesito una receta fácil con arroz.
+09	tiny	4	2.438125	3768	132296	¿Cuántos días tiene un año bisiesto?	Cuantos días tienen un año bisiesto.
+10	tiny	4	1.776375	3716	132872	Cuéntame un chiste corto.	Cuéntame un chiste corto.
+11	tiny	4	1.962125	4345	132268	¿Cómo se dice gracias en inglés?	¿Cómo se dice gracias en inglés?
+12	tiny	4	3.075375	2675	131952	Dame tres ideas para hacer ejercicio en casa.	Dame tres ideas para hacer ejercicio en casa.
+13	tiny	4	2.642688	3294	132044	¿Qué significa la palabra resiliencia?	que significa la Palabra Resiliencia.
+14	tiny	4	2.205938	2339	132144	¿Quién escribió Cien años de soledad?	¿Quién escribió 100 años de soledad?
+15	tiny	4	2.600688	2879	132620	Quiero aprender a programar en C más más.	quiero aprender a programar en temas más.
+16	tiny	4	2.031750	3764	132064	¿Por qué la luna cambia de forma?	porque la luna cambia de forma.
+17	tiny	4	2.554250	4180	132240	Dime un consejo para estudiar mejor.	Dime un consejo para estudiar mejor.
+18	tiny	4	2.426500	2455	133116	¿Cuál es el río más largo del mundo?	¿Cuál es el río más largo del mundo?
+19	tiny	4	3.250750	3949	133400	Explícame cómo funciona un teléfono celular.	explícame cómo funciona un teléfono celular.
+20	tiny	4	2.579125	4047	133048	Gracias Jarvis, eso es todo por ahora.	Gracias, Harvey, eso de todo por ahora.
+01	base	4	1.865625	6969	201632	Hola Jarvis, ¿cómo estás hoy?	Hola, Jarvis, ¿cómo estás hoy?
+02	base	4	1.660250	6350	200564	¿Qué hora es en este momento?	¿Qué hora es en este momento?
+03	base	4	2.464563	8541	200892	Dime cuál es la capital de Colombia.	dime cuáles la capital de Colombia.
+04	base	4	1.706688	7225	200508	¿Cuánto es doce más ocho?	¿Cuánto es 12 más 8?
+05	base	4	2.879875	7717	201532	Recomiéndame una película para esta noche.	recomiendame una película para esta noche.
+06	base	4	2.832875	9026	201024	¿Qué temperatura hace normalmente en Cartago?	que temperatura hace normalmente encartado.
+07	base	4	2.577438	6874	201108	Explícame qué es un modelo de lenguaje.	Explícame que eres un modelo de lenguaje.
+08	base	4	2.565813	8362	200892	Necesito una receta fácil con arroz.	Mecesito una receta fácil con arroz.
+09	base	4	2.438125	7480	200980	¿Cuántos días tiene un año bisiesto?	¿Cuántos días tiene un año visiesto?
+10	base	4	1.776375	8082	200856	Cuéntame un chiste corto.	Cuéntame un chiste corto.
+11	base	4	1.962125	6693	200996	¿Cómo se dice gracias en inglés?	cómo se dice gracias en inglés.
+12	base	4	3.075375	6689	201432	Dame tres ideas para hacer ejercicio en casa.	Dámetres, ideas para hacer ejercicio en casa.
+13	base	4	2.642688	8194	201220	¿Qué significa la palabra resiliencia?	¿Qué significa la palabra residencia?
+14	base	4	2.205938	7535	201024	¿Quién escribió Cien años de soledad?	quién escribió 100 años de soledad.
+15	base	4	2.600688	6605	201724	Quiero aprender a programar en C más más.	Quiero aprender a programar en "se más más".
+16	base	4	2.031750	6767	200900	¿Por qué la luna cambia de forma?	¿Por qué la luna cambia de forma?
+17	base	4	2.554250	6679	201448	Dime un consejo para estudiar mejor.	Dime un consejo para estudiar mejor.
+18	base	4	2.426500	6714	201732	¿Cuál es el río más largo del mundo?	¿Cuál es el río más largo del mundo?
+19	base	4	3.250750	6667	200996	Explícame cómo funciona un teléfono celular.	Explícame cómo funciona un teléfono celular.
+20	base	4	2.579125	6659	201760	Gracias Jarvis, eso es todo por ahora.	Gracias Harbys, eso des todo por ahora.
