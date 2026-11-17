@@ -74,7 +74,7 @@ ResultadoProceso ejecutar(const std::vector<std::string>& argv, int timeout_s, c
     setpgid(pid, pid);
 
     int estado = 0;
-    struct rusage uso{};
+    struct rusage uso = {};
     for (;;) {
         const pid_t w = wait4(pid, &estado, WNOHANG, &uso);
         if (w == pid) break;

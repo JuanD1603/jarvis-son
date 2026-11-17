@@ -53,12 +53,12 @@ std::string marca_tiempo() {
 }
 
 bool existe(const std::string& ruta) {
-    struct stat st{};
+    struct stat st = {};
     return stat(ruta.c_str(), &st) == 0;
 }
 
 long tamano(const std::string& ruta) {
-    struct stat st{};
+    struct stat st = {};
     return stat(ruta.c_str(), &st) == 0 ? static_cast<long>(st.st_size) : -1;
 }
 
