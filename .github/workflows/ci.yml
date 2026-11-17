@@ -1,0 +1,30 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  compilar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependencias
+        run: sudo apt-get update && sudo apt-get install -y cmake ninja-build clang-format
+      - name: Formato (clang-format)
+        run: clang-format --dry-run --Werror src/*.cpp include/jarvis/*.hpp tests/unit/*.cpp
+      - name: Compilar orquestador
+        run: cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release && cmake --build build
+      - name: Pruebas (unitarias + turno simulado --mock)
+        run: ctest --test-dir build --output-on-failure
+      - name: Sintaxis de scripts
+        run: for f in scripts/*.sh; do bash -n "$f"; done
+      - name: Sin pesos ni audio en el repositorio
+        run: |
+          if git ls-files | grep -E '\.(gguf|bin|onnx|wav|m4a|apk)$'; then
+            echo "Se encontraron archivos prohibidos"; exit 1
+          fi
