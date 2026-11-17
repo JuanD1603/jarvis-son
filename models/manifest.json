@@ -1,0 +1,113 @@
+{
+  "descripcion": "Modelos usados por Jarvis-son V1. Los pesos NO se versionan; se descargan con scripts/instalar_termux.sh y se verifican por sha256.",
+  "modelos": [
+    {
+      "archivo": "Qwen3.5-0.8B-Q4_0.gguf",
+      "componente": "slm",
+      "repo": "ggml-org/Qwen3.5-0.8B-GGUF",
+      "url": "https://huggingface.co/ggml-org/Qwen3.5-0.8B-GGUF/resolve/004fd086eccea9f7cf867aa07ba328773beef81d/Qwen3.5-0.8B-Q4_0.gguf",
+      "revision": "004fd086eccea9f7cf867aa07ba328773beef81d",
+      "licencia": "apache-2.0",
+      "tamano_bytes": 563036064,
+      "sha256": "57d1997790d1744fba5b40a7317df71ea5e2acee28c47e78f0cce39c0703f8cf",
+      "fecha": "2026-11-12",
+      "notas": "Base del plan. Conversion GGUF oficial de ggml-org (no existe repo GGUF bajo la organizacion Qwen); tamano coincide con los 563 MB del plan."
+    },
+    {
+      "archivo": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "componente": "slm",
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+      "licencia": "apache-2.0",
+      "tamano_bytes": 1117320736,
+      "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+      "fecha": "2026-11-12",
+      "notas": "Propuesta del informe del equipo."
+    },
+    {
+      "archivo": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "componente": "slm",
+      "repo": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/9217f5db79a29953eb74d5343926648285ec7e67/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "revision": "9217f5db79a29953eb74d5343926648285ec7e67",
+      "licencia": "apache-2.0",
+      "tamano_bytes": 491400032,
+      "sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+      "fecha": "2026-11-12",
+      "notas": "Contingencia."
+    },
+    {
+      "archivo": "ggml-tiny-q5_1.bin",
+      "componente": "stt",
+      "repo": "ggerganov/whisper.cpp",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-tiny-q5_1.bin",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "licencia": "mit",
+      "tamano_bytes": 32152673,
+      "sha256": "818710568da3ca15689e31a743197b520007872ff9576237bda97bd1b469c3d7",
+      "fecha": "2026-11-12",
+      "notas": "Whisper tiny multilingue cuantizado q5_1 (pesos de OpenAI Whisper, licencia MIT)."
+    },
+    {
+      "archivo": "ggml-base-q5_1.bin",
+      "componente": "stt",
+      "repo": "ggerganov/whisper.cpp",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "licencia": "mit",
+      "tamano_bytes": 59707625,
+      "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898",
+      "fecha": "2026-11-12",
+      "notas": "Whisper base multilingue q5_1."
+    },
+    {
+      "archivo": "vits-piper-es_MX-ald-medium.tar.bz2",
+      "componente": "tts",
+      "repo": "k2-fsa/sherpa-onnx",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-es_MX-ald-medium.tar.bz2",
+      "revision": "tts-models",
+      "licencia": "voz Piper: MIT (piper-voices); dataset Ald: Unlicense",
+      "tamano_bytes": 67196497,
+      "sha256": "c60cf7bc853eb01a875fba0756523fecf9d9f46c763b19785d223fc981fb4fb6",
+      "fecha": "2026-11-12",
+      "notas": "Voz Piper es_MX ald medium (22050 Hz, 1 hablante), finetune de davefx. Dataset rmcpantoja/Ald_Mexican_Spanish_speech_dataset."
+    },
+    {
+      "archivo": "vits-piper-es_MX-claude-high.tar.bz2",
+      "componente": "tts",
+      "repo": "k2-fsa/sherpa-onnx",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-es_MX-claude-high.tar.bz2",
+      "revision": "tts-models",
+      "licencia": "voz Piper: MIT (piper-voices); dataset declarado apache-2.0 (HirCoir/Piper-TTS-Spanish)",
+      "tamano_bytes": 67207890,
+      "sha256": "ec33fb689c248fe64810aab564cba97babf0f506672cfd404928d46e751a4721",
+      "fecha": "2026-11-12",
+      "notas": "Voz Piper es_MX claude high (22050 Hz). Alternativa de comparacion."
+    },
+    {
+      "archivo": "ggml-small-q5_1.bin",
+      "componente": "stt",
+      "repo": "ggerganov/whisper.cpp",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q5_1.bin",
+      "revision": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "licencia": "mit",
+      "tamano_bytes": 190085487,
+      "sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb",
+      "fecha": "2026-11-12",
+      "notas": "Whisper small multilingue q5_1. Probado porque base quedo en 17/20 con voz real."
+    },
+    {
+      "archivo": "vits-piper-es_AR-daniela-high.tar.bz2",
+      "componente": "tts",
+      "repo": "k2-fsa/sherpa-onnx",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-es_AR-daniela-high.tar.bz2",
+      "revision": "tts-models",
+      "licencia": "voz Piper: MIT (piper-voices); dataset OpenSLR 61: CC BY-SA 4.0 (atribucion requerida)",
+      "tamano_bytes": 115562134,
+      "sha256": "71cbf6b7f646ab74f3c51336151abef41e6c54467ac929ffdb19ed706a07dd7b",
+      "fecha": "2026-11-12",
+      "notas": "Voz Piper es_AR daniela high (22050 Hz). Tercera voz de comparacion."
+    }
+  ]
+}
