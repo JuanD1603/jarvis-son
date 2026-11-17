@@ -1,0 +1,14 @@
+voz	frase	pronunciacion	ritmo	naturalidad	ms_sintesis	dur_audio_s
+es_MX-ald-medium	1	2	2	2	3888	4.477415
+es_MX-ald-medium	2	2	2	2	3321	5.816599
+es_MX-ald-medium	3	2	2	2	3437	5.259320
+es_MX-claude-high	1	2	3	2	3499	4.400181
+es_MX-claude-high	2	3	3	3	3632	5.734059
+es_MX-claude-high	3	3	3	3	3617	5.552109
+es_AR-daniela-high	1	4	4	4	7660	3.448163
+es_AR-daniela-high	2	4	4	4	7897	4.260862
+es_AR-daniela-high	3	4	4	4	8251	4.562721
+android	1	3	3	3	8	
+android	2	4	4	4	9	
+android	3	3	3	3	9	
+# preferida: C ( A=es_MX-ald-medium B=es_MX-claude-high C=es_AR-daniela-high D=android )

@@ -1,0 +1,8 @@
+voz	frase	pronunciacion	ritmo	naturalidad	ms_sintesis	dur_audio_s
+es_MX-ald-medium	1	1	2	1	3724	4.550748
+es_MX-ald-medium	2	1	1	1	3207	5.735329
+es_MX-ald-medium	3	3	3	2	3345	5.270930
+es_MX-claude-high	1	2	1	1	3644	4.493061
+es_MX-claude-high	2	2	2	1	3370	5.861361
+es_MX-claude-high	3	2	2	2	3486	5.589297
+# preferida: B (A=es_MX-ald-medium, B=es_MX-claude-high)
