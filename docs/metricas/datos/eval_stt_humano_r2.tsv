@@ -1,0 +1,41 @@
+id	condicion	referencia	dur_s	config	ms	rss_kb	hipotesis
+01	silencio	Hola Jarvis, ¿cómo estás hoy?	6.144000	base:512	2055	177556	¿Vis cómo estás hoy?
+01	silencio	Hola Jarvis, ¿cómo estás hoy?	6.144000	small:512	5645	436900	¿Vis cómo estás hoy?
+02	silencio	¿Qué hora es en este momento?	6.144000	base:512	1867	177472	¿Qué hora es en este momento?
+02	silencio	¿Qué hora es en este momento?	6.144000	small:512	5822	437328	¿Qué hora es en este momento?
+03	silencio	Dime cuál es la capital de Colombia.	6.144000	base:512	1954	177756	Dime cuál es la capitán de Colombia.
+03	silencio	Dime cuál es la capital de Colombia.	6.144000	small:512	5856	437732	Dime cuál es la capital de Colombia.
+04	silencio	¿Cuánto es doce más ocho?	6.144000	base:512	1985	177500	¿Cuánto es 12 masochos?
+04	silencio	¿Cuánto es doce más ocho?	6.144000	small:512	5780	437072	¿Cuánto es 12 más 8?
+05	silencio	Recomiéndame una película para esta noche.	6.144000	base:512	2147	177660	Recumiendamos una película para ver esta noche.
+05	silencio	Recomiéndame una película para esta noche.	6.144000	small:512	6037	437696	Recomendame una película para ver esta noche.
+06	silencio	¿Qué temperatura hace normalmente en Cartago?	6.144000	base:512	1926	177392	¿Qué temperatura es normalmente encartado?
+06	silencio	¿Qué temperatura hace normalmente en Cartago?	6.144000	small:512	6433	437192	¿Qué temperatura hace normalmente en cartago?
+07	silencio	Explícame qué es un modelo de lenguaje.	6.144000	base:512	2190	177416	Explícame que es un modelo del lenguaje.
+07	silencio	Explícame qué es un modelo de lenguaje.	6.144000	small:512	8130	436968	Explícame que es un modelo de lenguaje.
+08	silencio	Necesito una receta fácil con arroz.	6.144000	base:512	2356	177676	Necesito una receta fácil con arroz.
+08	silencio	Necesito una receta fácil con arroz.	6.144000	small:512	8069	437464	Necesito una receta fácil con arroz.
+09	silencio	¿Cuántos días tiene un año bisiesto?	6.144000	base:512	2375	177372	Cuantos días tiene un año y fiesto.
+09	silencio	¿Cuántos días tiene un año bisiesto?	6.144000	small:512	7345	437432	¿Cuántos días tiene un año y fiesto?
+10	silencio	Cuéntame un chiste corto.	6.144000	base:512	1901	177564	Cuéntame el ciste corto.
+10	silencio	Cuéntame un chiste corto.	6.144000	small:512	5870	437060	Cuéntame, insiste, corto.
+11	silencio	¿Cómo se dice gracias en inglés?	6.144000	base:512	2076	176696	¿Cómo se dice gracias en inglés?
+11	silencio	¿Cómo se dice gracias en inglés?	6.144000	small:512	7369	437344	¿Cómo se dice gracias en inglés?
+12	silencio	Dame tres ideas para hacer ejercicio en casa.	6.144000	base:512	2457	177688	La mecesías para hacer ejercicio en casa.
+12	silencio	Dame tres ideas para hacer ejercicio en casa.	6.144000	small:512	7161	437940	Dame tres días para hacer ejercicio en casa.
+13	silencio	¿Qué significa la palabra resiliencia?	6.144000	base:512	2330	177624	Que significa la palabra presidencia.
+13	silencio	¿Qué significa la palabra resiliencia?	6.144000	small:512	7432	437352	¿Qué significa la palabra resiliencia?
+14	silencio	¿Quién escribió Cien años de soledad?	6.144000	base:512	2961	177960	He instrivió si en un nuz de solía.
+14	silencio	¿Quién escribió Cien años de soledad?	6.144000	small:512	7391	437036	¿Quién escribió 100 años de soledad?
+15	silencio	Quiero aprender a programar en C más más.	6.144000	base:512	2462	177204	Quiero aprogramar en 5 más más.
+15	silencio	Quiero aprender a programar en C más más.	6.144000	small:512	7250	437224	Quiero aprogramar en C++.
+16	silencio	¿Por qué la luna cambia de forma?	6.144000	base:512	2000	177140	Porque la luna cambió de forma.
+16	silencio	¿Por qué la luna cambia de forma?	6.144000	small:512	6310	437312	Porque la Luna cambió de forma.
+17	silencio	Dime un consejo para estudiar mejor.	6.144000	base:512	2438	176368	Dime un consejo para estudiar mejor.
+17	silencio	Dime un consejo para estudiar mejor.	6.144000	small:512	7704	437972	Dime un consejo para estudiar mejor.
+18	silencio	¿Cuál es el río más largo del mundo?	6.144000	base:512	2593	177648	¿Cuál es el río mozo del arco del mundo?
+18	silencio	¿Cuál es el río más largo del mundo?	6.144000	small:512	7212	437496	¿Cuál es el río Onos Larco del Mundo?
+19	silencio	Explícame cómo funciona un teléfono celular.	6.144000	base:512	2473	177348	Explícame cómo funciona un teléfono celular.
+19	silencio	Explícame cómo funciona un teléfono celular.	6.144000	small:512	7871	437728	Explícame cómo funciona un teléfono celular.
+20	silencio	Gracias Jarvis, eso es todo por ahora.	6.144000	base:512	2436	176820	Gracias Jarvis, es susto por ahora.
+20	silencio	Gracias Jarvis, eso es todo por ahora.	6.144000	small:512	6983	438048	Gracias Jarvis, es susto por ahora.

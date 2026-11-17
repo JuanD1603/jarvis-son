@@ -1,0 +1,61 @@
+id	condicion	referencia	dur_s	config	ms	rss_kb	hipotesis
+01	silencio	Hola Jarvis, ¿cómo estás hoy?	6.144000	tiny:1500	2490	135440	Hola Jarvis, como está soy?
+01	silencio	Hola Jarvis, ¿cómo estás hoy?	6.144000	base:512	4987	177452	Hola, Jarvis, ¿cómo estás hoy?
+01	silencio	Hola Jarvis, ¿cómo estás hoy?	6.144000	base:1500	4699	203800	Hola, Jarvis, ¿cómo estás hoy?
+02	silencio	¿Qué hora es en este momento?	6.144000	tiny:1500	2293	135328	¿Qué hora es en este momento?
+02	silencio	¿Qué hora es en este momento?	6.144000	base:512	2102	177516	¿Qué hora es en este momento?
+02	silencio	¿Qué hora es en este momento?	6.144000	base:1500	4635	203620	¿Qué hora es en este momento?
+03	silencio	Dime cuál es la capital de Colombia.	6.144000	tiny:1500	2274	135492	Y me acuerdo en la capital de Colombia.
+03	silencio	Dime cuál es la capital de Colombia.	6.144000	base:512	1919	177676	Dime cuál es la capital de Colombia.
+03	silencio	Dime cuál es la capital de Colombia.	6.144000	base:1500	5409	203868	Dime cuál es la capital de Colombia.
+04	silencio	¿Cuánto es doce más ocho?	6.144000	tiny:1500	2426	135484	Cuanto es dos demás ocho.
+04	silencio	¿Cuánto es doce más ocho?	6.144000	base:512	1963	177620	¿Cuánto es dos y más ocho?
+04	silencio	¿Cuánto es doce más ocho?	6.144000	base:1500	4787	203140	¿Cuánto es dos y más ocho?
+05	silencio	Recomiéndame una película para esta noche.	6.144000	tiny:1500	2365	135548	Recomiéndame una película para esta noche.
+05	silencio	Recomiéndame una película para esta noche.	6.144000	base:512	1996	177668	Recumiendame una película para esta noche.
+05	silencio	Recomiéndame una película para esta noche.	6.144000	base:1500	4723	203308	Recumiendame una película para esta noche.
+06	silencio	¿Qué temperatura hace normalmente en Cartago?	6.144000	tiny:1500	2385	135468	Que temperatura haci normalmente en cartabo.
+06	silencio	¿Qué temperatura hace normalmente en Cartago?	6.144000	base:512	1944	177616	¿Qué temperatura hace normalmente en cartago?
+06	silencio	¿Qué temperatura hace normalmente en Cartago?	6.144000	base:1500	4696	203892	¿Qué temperatura hace normalmente en cartago?
+07	silencio	Explícame qué es un modelo de lenguaje.	6.144000	tiny:1500	2407	135308	Esplicamente que es un modelo del lenguaje.
+07	silencio	Explícame qué es un modelo de lenguaje.	6.144000	base:512	2370	176908	Explícame que es un modelo de lenguaje.
+07	silencio	Explícame qué es un modelo de lenguaje.	6.144000	base:1500	4929	203900	Explícame que es un modelo de lenguaje.
+08	silencio	Necesito una receta fácil con arroz.	6.144000	tiny:1500	2426	135504	En ese punto, una receta pasiva con arroz.
+08	silencio	Necesito una receta fácil con arroz.	6.144000	base:512	2024	177452	Necesito una receta fácil con arroz.
+08	silencio	Necesito una receta fácil con arroz.	6.144000	base:1500	4791	203168	Necesito una receta fácil con arroz.
+09	silencio	¿Cuántos días tiene un año bisiesto?	6.144000	tiny:1500	2409	135380	Cuantos días y en un año y cesto.
+09	silencio	¿Cuántos días tiene un año bisiesto?	6.144000	base:512	2056	177584	¿Cuántos días, en un año y cierto?
+09	silencio	¿Cuántos días tiene un año bisiesto?	6.144000	base:1500	4750	203776	¿Cuántos días, en un año y cierto?
+10	silencio	Cuéntame un chiste corto.	6.144000	tiny:1500	2415	135432	Cuentamente incilde corto.
+10	silencio	Cuéntame un chiste corto.	6.144000	base:512	2201	177068	Cuéntame un ciste corto.
+10	silencio	Cuéntame un chiste corto.	6.144000	base:1500	5500	203436	Cuentame un ciste corto.
+11	silencio	¿Cómo se dice gracias en inglés?	6.144000	tiny:1500	2320	135296	¿Cómo se dice que nadie es en inglés?
+11	silencio	¿Cómo se dice gracias en inglés?	6.144000	base:512	1931	177472	Comenceis gracias en inglés.
+11	silencio	¿Cómo se dice gracias en inglés?	6.144000	base:1500	4801	203724	Comenceis y gracias en inglés.
+12	silencio	Dame tres ideas para hacer ejercicio en casa.	6.144000	tiny:1500	2460	135944	Dame tres ideas para hacer ejercicio en casa.
+12	silencio	Dame tres ideas para hacer ejercicio en casa.	6.144000	base:512	2325	177852	Dame tres ideas para hacer el sitio en casa.
+12	silencio	Dame tres ideas para hacer ejercicio en casa.	6.144000	base:1500	5833	203796	Dame tres ideas para hacer el sitio en casa.
+13	silencio	¿Qué significa la palabra resiliencia?	6.144000	tiny:1500	2332	135556	¿Qué significa la palabra resiliencia?
+13	silencio	¿Qué significa la palabra resiliencia?	6.144000	base:512	1924	177548	¿Qué significa la palabra "resilencia"?
+13	silencio	¿Qué significa la palabra resiliencia?	6.144000	base:1500	4775	203012	¿Qué significa la palabra "resilencia"?
+14	silencio	¿Quién escribió Cien años de soledad?	6.144000	tiny:1500	3037	135316	Quien es tu y a suena yo de suelidad?
+14	silencio	¿Quién escribió Cien años de soledad?	6.144000	base:512	2567	177080	¿Quién escribió 100 años de soledad?
+14	silencio	¿Quién escribió Cien años de soledad?	6.144000	base:1500	6259	203436	¿Quién escribió 100 años de soledad?
+15	silencio	Quiero aprender a programar en C más más.	6.144000	tiny:1500	3052	134984	¡Qué rápido! ¡Qué rápido! ¡Qué rápido! ¡Qué rápido! ¡Qué más más!
+15	silencio	Quiero aprender a programar en C más más.	6.144000	base:512	2130	177548	Quiero aprender a programar en sí más más.
+15	silencio	Quiero aprender a programar en C más más.	6.144000	base:1500	4791	203752	Quiero aprender a programar encima de más.
+16	silencio	¿Por qué la luna cambia de forma?	6.144000	tiny:1500	2383	134460	Porque la Luna cambia de forma.
+16	silencio	¿Por qué la luna cambia de forma?	6.144000	base:512	2283	177220	¿Por qué la luna cambia de forma?
+16	silencio	¿Por qué la luna cambia de forma?	6.144000	base:1500	6122	203880	¿Por qué la luna cambia de forma?
+17	silencio	Dime un consejo para estudiar mejor.	6.144000	tiny:1500	2980	135004	Y me enconsego para estudiar mejor.
+17	silencio	Dime un consejo para estudiar mejor.	6.144000	base:512	2438	177408	Dime un consejo para estudiar mejor.
+17	silencio	Dime un consejo para estudiar mejor.	6.144000	base:1500	5425	203420	Dime un consejo para estudiar mejor.
+18	silencio	¿Cuál es el río más largo del mundo?	6.144000	tiny:1500	2495	135364	¿Cualen el río Marlarco del mundo?
+18	silencio	¿Cuál es el río más largo del mundo?	6.144000	base:512	2151	177248	¿Cuál es el río Mar largo del mundo?
+18	silencio	¿Cuál es el río más largo del mundo?	6.144000	base:1500	6069	203756	¿Cuál es el río Mar largo del mundo?
+19	silencio	Explícame cómo funciona un teléfono celular.	6.144000	tiny:1500	3004	135616	Explícame como funciona a un teléfono celular.
+19	silencio	Explícame cómo funciona un teléfono celular.	6.144000	base:512	2517	176916	Explícame cómo funciona un teléfono celular.
+19	silencio	Explícame cómo funciona un teléfono celular.	6.144000	base:1500	5919	203452	Explícame como posiciona un teléfono celular.
+20	silencio	Gracias Jarvis, eso es todo por ahora.	6.144000	tiny:1500	2394	135132	Gracias, Jarvis, eso es todo por ahora.
+20	silencio	Gracias Jarvis, eso es todo por ahora.	6.144000	base:512	2277	177420	Gracias Jarvis, eso es todo por ahora.
+20	silencio	Gracias Jarvis, eso es todo por ahora.	6.144000	base:1500	6102	203216	Gracias Jarvis, eso es todo por ahora.

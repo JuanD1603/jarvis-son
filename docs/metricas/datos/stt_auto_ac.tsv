@@ -1,0 +1,41 @@
+id	modelo	ac	dur_s	ms	rss_kb	ref	hip
+01	tiny	512	1.865625	5723	113116	Hola Jarvis, ¿cómo estás hoy?	Hola Harvey, ¿cómo está soy?
+02	tiny	512	1.660250	1149	112340	¿Qué hora es en este momento?	¿Qué hora es en este momento?
+03	tiny	512	2.464563	1248	112476	Dime cuál es la capital de Colombia.	Dime cuáles la capital de Colombia.
+04	tiny	512	1.706688	1200	112440	¿Cuánto es doce más ocho?	¿Cuándo esto se más ocho?
+05	tiny	512	2.879875	1300	112484	Recomiéndame una película para esta noche.	Recomiendame una película para esta noche.
+06	tiny	512	2.832875	1318	111824	¿Qué temperatura hace normalmente en Cartago?	¿Qué temperatura ha se normalmente encartado?
+07	tiny	512	2.577438	1419	112668	Explícame qué es un modelo de lenguaje.	explica a me qué de su un modelo de lenguaje.
+08	tiny	512	2.565813	1327	112408	Necesito una receta fácil con arroz.	me necesito una receta fácil con arroz
+09	tiny	512	2.438125	1283	112068	¿Cuántos días tiene un año bisiesto?	Cuantos días tienen un año bisiesto.
+10	tiny	512	1.776375	1347	111916	Cuéntame un chiste corto.	Cuéntame un chiste corto. Cuéntame un chiste corto.
+11	tiny	512	1.962125	3615	111716	¿Cómo se dice gracias en inglés?	¿Cómo se dice gracias en inglés? ¿Cómo se dice gracias en inglés?
+12	tiny	512	3.075375	1308	111964	Dame tres ideas para hacer ejercicio en casa.	Dame tres ideas para hacer ejercicio en casa.
+13	tiny	512	2.642688	1244	112748	¿Qué significa la palabra resiliencia?	¿Qué significa la palabra "resiliencia"?
+14	tiny	512	2.205938	1489	112520	¿Quién escribió Cien años de soledad?	¿Quién escribió 100 años de soledad?
+15	tiny	512	2.600688	1340	112624	Quiero aprender a programar en C más más.	quiero aprender a programar en "se más más".
+16	tiny	512	2.031750	3639	112500	¿Por qué la luna cambia de forma?	¿Por qué la Luna cambia de forma?
+17	tiny	512	2.554250	1444	111544	Dime un consejo para estudiar mejor.	Dime un consejo para estudiar mejor.
+18	tiny	512	2.426500	1347	112544	¿Cuál es el río más largo del mundo?	¿Cuál es el río más largo del mundo?
+19	tiny	512	3.250750	1325	112192	Explícame cómo funciona un teléfono celular.	explícame cómo funciona un teléfono celular.
+20	tiny	512	2.579125	1902	112352	Gracias Jarvis, eso es todo por ahora.	Gracias, Harvys, eso de todo por ahora. Gracias, Harvys, eso de todo por ahora. Gracias, Harvys, eso de todo por ahora. Gracias, Harvys, eso de todo por ahora.
+01	base	512	1.865625	2283	174516	Hola Jarvis, ¿cómo estás hoy?	Hola Harbys, ¿cómo estás hoy?
+02	base	512	1.660250	2281	175360	¿Qué hora es en este momento?	¿Qué hora es en este momento?
+03	base	512	2.464563	2328	174832	Dime cuál es la capital de Colombia.	Dime cuáles la capital de Colombia.
+04	base	512	1.706688	2314	174384	¿Cuánto es doce más ocho?	¿Cuánto es 12 más 8?
+05	base	512	2.879875	2303	174608	Recomiéndame una película para esta noche.	recomiendame una película para esta noche.
+06	base	512	2.832875	2358	175356	¿Qué temperatura hace normalmente en Cartago?	¿Qué temperatura hace normalmente encartado?
+07	base	512	2.577438	2452	175044	Explícame qué es un modelo de lenguaje.	Explícame que eres un modelo de lenguaje.
+08	base	512	2.565813	2412	175084	Necesito una receta fácil con arroz.	Mecesito una receta fácil con arroz.
+09	base	512	2.438125	2452	175172	¿Cuántos días tiene un año bisiesto?	¿Cuántos días tiene un año visiesto?
+10	base	512	1.776375	2254	174780	Cuéntame un chiste corto.	Cuéntame un chiste corto.
+11	base	512	1.962125	2296	174288	¿Cómo se dice gracias en inglés?	cómo se dice gracias en inglés?
+12	base	512	3.075375	2397	175216	Dame tres ideas para hacer ejercicio en casa.	Dámetres ideas para hacer ejercicio en casa.
+13	base	512	2.642688	2355	175076	¿Qué significa la palabra resiliencia?	¿Qué significa la palabra residencia?
+14	base	512	2.205938	2357	174708	¿Quién escribió Cien años de soledad?	quién escribió 100 años de soledad.
+15	base	512	2.600688	2398	175356	Quiero aprender a programar en C más más.	Quiero aprender a programárense más más.
+16	base	512	2.031750	2366	175192	¿Por qué la luna cambia de forma?	¿Por qué la luna cambia de forma?
+17	base	512	2.554250	2326	174256	Dime un consejo para estudiar mejor.	dime un consejo para estudiar mejor.
+18	base	512	2.426500	2412	174208	¿Cuál es el río más largo del mundo?	¿Cuál es el río más largo del mundo?
+19	base	512	3.250750	2409	175444	Explícame cómo funciona un teléfono celular.	Explícame cómo funciona un teléfono celular.
+20	base	512	2.579125	2384	175208	Gracias Jarvis, eso es todo por ahora.	Gracias Harbys, eso des todo por ahora.
