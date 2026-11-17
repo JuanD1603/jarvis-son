@@ -1,0 +1,11 @@
+n	ms	rss_kb	tokens	tok_s	pregunta	respuesta
+1	3475	659604	5	14.97	Hola, ¿cómo estás?	Hola, cómo estás? [end of text]   
+2	3641	660236	7	14.91	¿Cuál es la capital de Colombia?	La capital de Colombia es Bogotá. [end of text]   
+3	3952	660152	11	14.55	¿Cuánto es quince por cuatro?	cuince por cuatro es 3.75. [end of text]   
+4	5383	659644	32	14.78	Dame un consejo para dormir mejor.	Para dormir mejor, intenta mantener la temperatura ambiente a la temperatura correcta y desvía la atención de los objetos y personas que pueden causar incómodos. [end of text]   
+5	6728	659824	37	11.40	¿Qué es la inteligencia artificial?	La inteligencia artificial es un sistema capaz de realizar tareas que normalmente se requieren de una persona humana, como la comprensión y generación de lenguaje, gracias a su capacidad de aprender y adaptarse. [end of text]   
+6	11479	660940	76	11.12	Explícame en pocas palabras qué es la fotosíntesis.	La fotosíntesis es el proceso donde las plantas y algas transforman energía solar en energía química usando agua y dióxido de carbono. La energía se convierte en glucosa y oxígeno que son esenciales para el crecimiento de las plantas y la vida. Este proceso ocurre en la corteza de algunas plantas y algas, permitiendo que la vida exista. [end of text]   
+7	5615	660132	13	11.20	¿Qué me recomiendas hacer hoy?	Hecho en el momento. ¿Qué necesitas que haga hoy? [end of text]   
+8	5293	660184	9	11.28	Traduce al inglés la palabra mariposa.	Mariposa is a type of butterfly. [end of text]   
+9	8570	660316	57	13.69	¿Por qué el cielo es azul?	La luz azul se dispersa más que la luz roja, haciendo que las partículas del cielo reflejen la luz difusa. La presencia de nubes es la principal causa de este fenómeno. La dispersión de la luz es un efecto que se puede observar desde la Tierra. [end of text]   
+10	6639	660300	22	11.19	Cuéntame un dato curioso sobre los océanos.	El océano es el hogar de más de un mil millones de especies únicas que habitan en la Tierra. [end of text]   

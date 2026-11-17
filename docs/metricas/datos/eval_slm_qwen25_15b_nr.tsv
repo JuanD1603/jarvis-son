@@ -1,0 +1,11 @@
+n	ms	rss_kb	tokens	tok_s	pregunta	respuesta
+1	6373	1177452	12	10.39	Hola, ¿cómo estás?	 Hola, estoy bien, gracias por preguntar. [end of text]   
+2	6070	1177696	9	10.51	¿Cuál es la capital de Colombia?	 Bogotá es la capital de Colombia. [end of text]   
+3	7261	1177532	8	7.34	¿Cuánto es quince por cuatro?	 Quince por cuatro es veinte. [end of text]   
+4	12362	1177748	34	7.36	Dame un consejo para dormir mejor.	 Prueba a hacer un cuadro de la noche, en el cuadro escúchale a la alarma y relájate en la cama. [end of text]   
+5	11726	1177460	31	7.35	¿Qué es la inteligencia artificial?	 La inteligencia artificial es la capacidad de una máquina o computadora para realizar tareas que, en principio, requieren la inteligencia humana. [end of text]   
+6	12431	1178256	31	7.36	Explícame en pocas palabras qué es la fotosíntesis.	 La fotosíntesis es la capacidad de plantas para convertir la luz solar en energía, generando glucosa y oxígeno. [end of text]   
+7	9836	1177812	17	7.90	¿Qué me recomiendas hacer hoy?	 ¡Que disfrutes la tarde! ¿Tienes algo específico en la cabeza? [end of text]   
+8	8028	1177848	3	7.38	Traduce al inglés la palabra mariposa.	 A butterfly. [end of text]   
+9	10892	1177520	42	10.20	¿Por qué el cielo es azul?	 El cielo es azul debido a la luz de la sun que es absorbida por la atmósfera terrestre, limitando así el color azul a la superficie del planeta. [end of text]   
+10	13643	1178120	41	7.37	Cuéntame un dato curioso sobre los océanos.	 El océano Pacífico es el más grande y profundo, y tiene un área de más de 135,400,000 kilómetros cuadrados. [end of text]   

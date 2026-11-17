@@ -1,0 +1,11 @@
+n	ms	rss_kb	tokens	tok_s	pregunta	respuesta
+1	4079	1196768	13	17.00	Hola, ¿cómo estás?	Hola, gracias por preguntar. ¿En qué puedo ayudarte hoy? [end of text]   
+2	3691	1197392	7	17.09	¿Cuál es la capital de Colombia?	La capital de Colombia es Bogotá. [end of text]   
+3	3858	1197696	11	17.22	¿Cuánto es quince por cuatro?	cuince por cuatro es 3.75. [end of text]   
+4	6098	1196780	49	17.04	Dame un consejo para dormir mejor.	Para dormir mejor, intenta mantener la temperatura ambiente a la temperatura deseada para que tu cuerpo sepa que está dormido. Evita ir a la cama a la mañana o a la tarde, ya que el cuerpo necesita tiempo para recuperarse. [end of text]   
+5	7018	1196920	48	15.91	¿Qué es la inteligencia artificial?	La inteligencia artificial es un sistema que utiliza algoritmos para aprender y procesar datos automáticamente. La inteligencia artificial tiene aplicaciones en medicina, ciencias y economía. La inteligencia artificial es una tecnología que ayuda a mejorar la eficiencia y el éxito. [end of text]   
+6	9672	1198076	76	15.68	Explícame en pocas palabras qué es la fotosíntesis.	La fotosíntesis es el proceso en que las plantas absorben dióxido de carbono y agua para convertirlos en energía y células. Las plantas utilizan los pigmentos de la cloroplasto para capturar luz solar y transformar el gas y agua en glucosa y oxígeno. Esto es un proceso fundamental que permite a las plantas producir energía y alimento. [end of text]   
+7	5290	1197268	10	15.65	¿Qué me recomiendas hacer hoy?	Para ayudarte mejor hoy, ¿qué estás buscando? [end of text]   
+8	5165	1197624	9	16.53	Traduce al inglés la palabra mariposa.	Mariposa is a type of butterfly. [end of text]   
+9	6045	1197420	43	16.93	¿Por qué el cielo es azul?	La luz azul se dispersa más que la luz roja, haciendo que las partículas de la atmósfera reflejan la luz de manera más intensa en la zona azul, por lo que el cielo se ve azul. [end of text]   
+10	5719	1197848	22	15.88	Cuéntame un dato curioso sobre los océanos.	El océano es el hogar de más de un mil millones de especies conocidas por su riqueza y diversidad. [end of text]   
