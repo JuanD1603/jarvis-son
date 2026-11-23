@@ -53,6 +53,8 @@ El script instala paquetes, compila llama.cpp, whisper.cpp, sherpa-onnx y el orq
 
 Pasos manuales previos y control desde un PC por ADB/SSH: [bitacora/BITACORA.md](bitacora/BITACORA.md) (Fases A-D) y [docs/problemas_conocidos.md](docs/problemas_conocidos.md).
 
+Capturas de pantalla del proceso de instalación en el teléfono, paso a paso: [docs/instalacion_capturas.md](docs/instalacion_capturas.md).
+
 ## Uso
 
 En Termux, directamente en el teléfono:
