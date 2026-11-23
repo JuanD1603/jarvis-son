@@ -176,6 +176,7 @@ Reproducción de la instalación en un directorio limpio (`~/jarvis_demo`) con `
 | 2026-11-23 01:32 | Modo avión (persona) + `ping -c1 -W2 8.8.8.8; jarvis --wav frase_03.wav` (turno 54) | `Network is unreachable`; código 0, total 16,9 s | 1 min | Captura manual. Al salir del modo avión cambian el puerto y el código de la depuración inalámbrica: se siguió por USB |
 | 2026-11-23 01:38 | `python tests/metricas.py turnos.csv --modo voz` | 24 turnos de voz, todos código 0; p50 total 28,8 s, p95 53,0 s | <1 s | - |
 | 2026-11-23 01:38-01:40 | `jarvis-web`; la persona pulsa Hablar (turno 55) | "¿Cuál es la capital de Francia?" -> "La capital de Francia es París."; código 0, 24,7 s | 2 min | - |
+| 2026-11-23 | `apt-mark hold onnxruntime` | onnxruntime queda fijado en 1.31.1 (`hi`); `pkg upgrade` ya no lo actualiza | <1 s | Evita que se repita el fallo del TTS. Para actualizarlo: `apt-mark unhold onnxruntime` y recompilar sherpa-onnx |
 
 ## Trabajo futuro
 
