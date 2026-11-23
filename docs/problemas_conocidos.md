@@ -21,3 +21,4 @@ Observados durante la instalación en el Redmi Note 10S (MIUI 14). Detalle crono
 | sherpa-onnx v2.x no sintetiza con voces Piper (`phoneme_codepoints is empty`) | v2 eliminó espeak-ng integrado | Usar v1.13.8 (ADR-008) |
 | Respuesta del SLM vacía en algún turno | El modelo emite fin de texto de inmediato (no determinista aunque la semilla sea fija) | Se dice "No tengo una respuesta para eso." |
 | Turnos de 40-50 s con respuestas largas | Más tokens + TTS `high` lento | Reducir `slm.max_tokens` a 64 o usar `es_MX-claude-high` |
+| TTS falla con `cannot locate symbol "OrtGetApiBase"` tras `pkg upgrade` o tras ejecutar de nuevo el instalador | onnxruntime versiona sus símbolos (`VERS_1.32.0`); un `sherpa-onnx-offline-tts` compilado contra otra versión deja de enlazar | Reinstalar la versión con la que se compiló (`dpkg -i` del `.deb` en la caché de apt) o recompilar sherpa-onnx; para evitarlo, `apt-mark hold onnxruntime` (2026-11-23, Fase M) |

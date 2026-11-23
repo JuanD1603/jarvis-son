@@ -155,6 +155,29 @@ Formato: fecha/hora (UTC-5) | fase | comando | resultado | tiempo | incidencias.
 
 El repositorio se publica por módulos en `JuanD1603/jarvis-son`: una rama y un pull request por etapa, revisado por un integrante distinto del autor, con issues por etapa y tablero del proyecto. La CI (GitHub Actions) se ejecuta en cada PR una vez fusionado `.github/workflows/ci.yml`. El código del equipo se publica con licencia MIT.
 
+## Fase M — Capturas del proceso de instalación
+
+Reproducción de la instalación en un directorio limpio (`~/jarvis_demo`) con `scripts/instalar_termux.sh`; la instalación original del 2026-11-12 está en las fases anteriores. Comandos enviados por SSH (Wi-Fi) a una sesión `tmux` visible en Termux; capturas con `adb exec-out screencap` (ADB inalámbrico y luego USB). Resultado: [docs/instalacion_capturas.md](../docs/instalacion_capturas.md).
+
+| Fecha/hora | Comando | Resultado | Tiempo | Incidencias |
+|---|---|---|---|---|
+| 2026-11-23 00:45 | `adb pair` (código de vinculación) | Dos intentos con `protocol fault` | 1 min | El código había caducado; con un código nuevo `adb pair` y `adb connect` funcionaron |
+| 2026-11-23 00:47 | `ssh jarvis-wifi 'termux-battery-status'`; `pkg install -y tmux` | SSH por Wi-Fi OK; tmux 3.8 | 1 min | - |
+| 2026-11-23 00:49-00:56 | Capturas 01-08 (inventario, CPU, ajustes, permisos, Termux, paquetes, clang, `capturar.sh 3`) | WAV mono 16 kHz s16 3,07 s; archivo borrado | 7 min | - |
+| 2026-11-23 00:56 | `git clone .../jarvis-son jarvis-son-demo` | `main` en `f6469f6` | 5 s | - |
+| 2026-11-23 00:57-01:24 | `JARVIS_HOME=~/jarvis_demo SIN_MODELOS=1 bash scripts/instalar_termux.sh` | rc=0. llama.cpp 152/152 (~9 min, `HAVE_DOTPROD - Success`), whisper.cpp 44/44 (~3 min), sherpa-onnx 326/326 (~15 min), orquestador 9/9, `ctest` 2/2 | 27 min | `pkg install` actualizó cmake 4.5.1, ffmpeg 9.1 y onnxruntime 1.32.0. El instalador re-enlazó `$PREFIX/bin/jarvis` a `~/jarvis_demo`; se restauró a `~/jarvis/bin/jarvis` |
+| 2026-11-23 01:26 | `rm -rf ~/jarvis_demo ~/jarvis_demo_install.log` | 628 MB liberados; log copiado antes a `docs/metricas/instalacion_2026-11-23.log` | 2 s | - |
+| 2026-11-23 01:26 | `sha256sum` de whisper base q5_1 y Qwen2.5-1.5B frente a `models/manifest.json` | Coinciden | 10 s | - |
+| 2026-11-23 01:26 | `llama-bench -t 2 -p 64 -n 32 -r 1` | pp64 33,28 tok/s; tg32 11,29 tok/s | 10 s | Una sola repetición |
+| 2026-11-23 01:27 | `whisper-cli ... -ac 512 -f frase_03.wav` | "Dime cuáles la capital de Colombia." | 3 s | - |
+| 2026-11-23 01:27 | `jarvis --wav frase_03.wav` (turno 52) | `[ERROR] etapa: tts`, código 1 | 6 s | `tts.err`: `cannot locate symbol "OrtGetApiBase"`. onnxruntime 1.32.0 exporta `OrtGetApiBase@@VERS_1.32.0`; el sherpa-onnx de `~/jarvis` se enlazó contra 1.31.1 |
+| 2026-11-23 01:27 | `dpkg -i /data/data/com.termux/cache/apt/archives/onnxruntime_1.31.1_aarch64.deb` | onnxruntime vuelve a 1.31.1 | 5 s | Paquete tomado de la caché de apt |
+| 2026-11-23 01:27 | `jarvis --wav frase_03.wav` (turno 53) | Código 0: STT 1853, SLM 3195, TTS 5334, reproducción 2667 ms | 13 s | - |
+| 2026-11-23 01:32 | Modo avión (persona) + `ping -c1 -W2 8.8.8.8; jarvis --wav frase_03.wav` (turno 54) | `Network is unreachable`; código 0, total 16,9 s | 1 min | Captura manual. Al salir del modo avión cambian el puerto y el código de la depuración inalámbrica: se siguió por USB |
+| 2026-11-23 01:38 | `python tests/metricas.py turnos.csv --modo voz` | 24 turnos de voz, todos código 0; p50 total 28,8 s, p95 53,0 s | <1 s | - |
+| 2026-11-23 01:38-01:40 | `jarvis-web`; la persona pulsa Hablar (turno 55) | "¿Cuál es la capital de Francia?" -> "La capital de Francia es París."; código 0, 24,7 s | 2 min | - |
+| 2026-11-23 | `apt-mark hold onnxruntime` | onnxruntime queda fijado en 1.31.1 (`hi`); `pkg upgrade` ya no lo actualiza | <1 s | Evita que se repita el fallo del TTS. Para actualizarlo: `apt-mark unhold onnxruntime` y recompilar sherpa-onnx |
+
 ## Trabajo futuro
 
 - Demo con voz humana de al menos 10 turnos seguidos (se registraron 8; el criterio de 10 turnos se cumplió en las pruebas automáticas, con y sin red).
